@@ -1,0 +1,12 @@
+# install package in R  , install ggplot2
+install.packages("ggplot2")
+
+# remove package in R , remove ggplot2
+remove.packages("ggplot2")
+
+# load the package in R , load ggplot2
+library(ggplot)
+
+# unload or detach  the package in R  , unload ggplot2
+detach("package:ggplot2", unload=TRUE) 
+
