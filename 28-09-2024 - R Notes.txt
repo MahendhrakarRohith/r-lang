@@ -10,3 +10,9 @@ library(ggplot)
 # unload or detach  the package in R  , unload ggplot2
 detach("package:ggplot2", unload=TRUE) 
 
+# load mtcars dataset
+>mtcars
+
+# get summary information of dataset (mtcars)
+>summary(mtcars)
+
