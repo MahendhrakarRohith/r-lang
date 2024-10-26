@@ -1,0 +1,9 @@
+//26-10-2024
+//find the subset of dataset by using subset () aggregate () function on iris dataset 
+//aggregate() function is used to get the summary statistics of the data by group
+code:
+>aggregate(.~Species,data=iris,mean)
+
+code:
+// It can be used to select and filter variables and observations
+>subset(iris,iris$Sepal.Length==5.0)
